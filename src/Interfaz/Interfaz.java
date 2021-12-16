@@ -195,9 +195,9 @@ public class Interfaz extends javax.swing.JFrame {
 
         for (int i=0; i<numCantidad; i++) {
             ejercito[i] = personaje.getPersonajeClone(tipoPersonaje);
-            JLabel aca = new JLabel();
-            aca.setIcon(ejercito[i].getImagen());
-            panelImagenes.add(aca);
+            JLabel img = new JLabel();
+            img.setIcon(ejercito[i].getImagen());
+            panelImagenes.add(img);
             panelImagenes.updateUI();
         }
        
